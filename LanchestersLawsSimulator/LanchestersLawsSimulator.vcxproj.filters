@@ -34,6 +34,12 @@
     <Filter Include="External\Backends">
       <UniqueIdentifier>{f7c33774-ff49-4df0-a722-4febe048146b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\simulation">
+      <UniqueIdentifier>{bfc6fa72-30ee-40fa-91e0-68198f53f3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\simulation">
+      <UniqueIdentifier>{db9e45b9-f9fc-414b-98fd-6973efda4077}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\FirePower.h">
@@ -52,6 +58,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\include\War.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGuiLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BattleSimulation.h">
+      <Filter>Header Files\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GlfwWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\external\imgui\imconfig.h">
@@ -100,6 +115,15 @@
     </ClCompile>
     <ClCompile Include="..\src\FirePower.cpp">
       <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ImGuiLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BattleSimulation.cpp">
+      <Filter>Source Files\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GlfwWindow.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\external\imgui\imgui.cpp">
       <Filter>External\ImGui</Filter>

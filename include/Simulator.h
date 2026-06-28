@@ -1,13 +1,7 @@
 #pragma once
-#include <array>
 
-#include "Military.h"
-
-#define LOOP 2000
-#define FACTION_COUNT 2
-#define MILITARY_COUNT 1000
-
-struct GLFWwindow;
+#include "GlfwWindow.h"
+#include "ImGuiLayer.h"
 
 enum class Phase
 {
@@ -22,10 +16,8 @@ class Simulator
 private:
 	Phase m_CurrentPhase;
 
-	MilitaryData m_RedArmy;
-	MilitaryData m_BlueArmy;
-
-	GLFWwindow* m_Window;
+	GlfwWindow m_Window;
+	ImGuiLayer m_ImGuiLayer;
 
 	bool Initialize();
 	void MainLoop();

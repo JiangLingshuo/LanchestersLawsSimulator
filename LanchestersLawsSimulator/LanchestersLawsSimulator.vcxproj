@@ -148,8 +148,11 @@
     <ClInclude Include="..\external\imgui\imstb_rectpack.h" />
     <ClInclude Include="..\external\imgui\imstb_textedit.h" />
     <ClInclude Include="..\external\imgui\imstb_truetype.h" />
+    <ClInclude Include="..\include\BattleSimulation.h" />
     <ClInclude Include="..\include\FirePower.h" />
+    <ClInclude Include="..\include\GlfwWindow.h" />
     <ClInclude Include="..\include\Health.h" />
+    <ClInclude Include="..\include\ImGuiLayer.h" />
     <ClInclude Include="..\include\Military.h" />
     <ClInclude Include="..\include\RulesEnum.h" />
     <ClInclude Include="..\include\Simulator.h" />
@@ -163,8 +166,11 @@
     <ClCompile Include="..\external\imgui\imgui_draw.cpp" />
     <ClCompile Include="..\external\imgui\imgui_tables.cpp" />
     <ClCompile Include="..\external\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\src\BattleSimulation.cpp" />
     <ClCompile Include="..\src\FirePower.cpp" />
+    <ClCompile Include="..\src\GlfwWindow.cpp" />
     <ClCompile Include="..\src\Health.cpp" />
+    <ClCompile Include="..\src\ImGuiLayer.cpp" />
     <ClCompile Include="..\src\LanchestersLawsSimulator.cpp" />
     <ClCompile Include="..\src\Military.cpp" />
     <ClCompile Include="..\src\RulesEnum.cpp" />
